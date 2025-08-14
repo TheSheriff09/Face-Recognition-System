@@ -36,7 +36,7 @@ mkdir dataset
 # Usage
 1. Enroll New People:
 
-python face_recognition.py enroll --dataset ./dataset
+python face_reco.py enroll --dataset ./dataset
 
 * Press n to create a new person folder
 
@@ -48,11 +48,11 @@ python face_recognition.py enroll --dataset ./dataset
 
 2. Prepare Encodings:
 
-python face_recognition.py prepare --dataset ./dataset --out encodings.pkl
+python face_reco.py prepare --dataset ./dataset --out encodings.pkl
 
 3. Run Recognition:
 
-python face_recognition.py camera --encodings encodings.pkl
+python face_reco.py camera --encodings encodings.pkl
 
 * Press s to save snapshot
 
